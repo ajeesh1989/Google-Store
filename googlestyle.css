@@ -1,0 +1,230 @@
+body{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+.bar{
+    position: fixed;
+
+    width: 100%; height: 50px; background-color: rgb(255, 255, 255);
+}
+.glogo{
+    position: absolute;
+    width: 32px; height: 32px; margin-left: 56px; margin-top: 14px;
+}
+.slogo{
+    position: relative;
+    width: 42px;
+    height: 40px;
+    margin-left: 1283px;
+    top: 9px;
+    
+}
+.ghelp{
+    position: relative;
+    width: 46px;
+    height: 34px;
+    margin-left: 1326px;
+    top: -35px;
+    
+}
+.user{
+    position: relative;
+    width: 108px;
+    height: 54px;
+    margin-left: 1382px;
+    top: -77px;
+
+}
+.welcome{
+    position: relative;
+    top: 55px;;
+    font-family: "Google Sans Display","Roboto","Arial",sans-serif;
+    margin-left: 36%; font-size: 60px;
+    line-height: 68px;
+    letter-spacing: -2px; font-weight: 700; color: #3c4043; margin-top: -18px;
+    transform: translateY(120px);
+}
+.gstore{
+    color:  #188038;
+}
+.body1{
+ width: 100%; background:#188038;
+ height: 1200px;
+
+    
+}
+.products{
+    width: 100%;
+    background:rgb(255, 253, 252);
+    height: 1900px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.box{
+    width:20%;
+height:100%;
+padding-left: 30px;
+padding-top: 20px;
+
+    
+    
+}
+.pdttype{ color: #69747d;
+    font-family: "Google Sans","Roboto","Arial",sans-serif;
+    font-size: 13px;
+}
+
+    
+
+.cphones{
+    margin-top: 93px;
+    margin-bottom: 20px;
+    line-height: 31px;
+    color: #3C4043;
+    font-family: "Google Sans Display","Roboto","Arial",sans-serif;
+    font-size: 14px;
+    margin-left: 16px;
+    
+
+}
+.ch{
+    margin-top: 93px;
+    margin-bottom: 20px;
+    line-height: 31px;
+    color: #3C4043;
+    font-family: "Google Sans Display","Roboto","Arial",sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+}
+.tile{
+   
+    background-color: rgb(254, 251, 251);
+    width: 350px;
+    height: 385px;
+    display: inline-block;
+    margin-left: 50px;
+}
+.img-2{
+    width: 250px;
+    height: 250px;
+    padding-left: 10px;
+    padding-top: 5px;
+    transition: 1s;
+
+    
+    
+}
+.tile-1{
+   margin-top: 20px;
+    background-color: rgb(252, 251, 251);
+    width: 350px;
+    height: 385px;
+    display: inline-block;
+}
+.img-2:hover{
+    transform: scale(1.1);
+}
+
+.nav{
+    position: fixed;
+    margin-top: 20px;
+}
+
+.product-type{
+    margin-top: 200px;
+    padding-left: 30px;
+    display: flex;
+}
+
+.checkbox{
+    cursor:default;background-color:#ffffff;border:1px solid #ff0000;
+  }
+  .infoFooter {
+    width: 1296px;
+    height: 122px;
+    margin-left: 111px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: stretch;
+}
+.infoFooter td {
+    padding-left: 48px;
+    cursor: pointer;
+    font-weight: unset;
+}
+
+.infoFooter td:hover {
+    color: royalblue;
+}
+.footer {
+    width: 1384px;
+    height: 48px;
+    margin-left: 46px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+    align-items: center;
+    border-top: 2px solid #F8F9FA;
+    margin-top: 10px;
+}
+.footerLeft {
+    width: 140px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footerLeft img {
+    width: 126px;
+    height: 23px;
+    cursor: pointer;
+}
+.footerRight {
+    width: 630px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footerRight h3 {
+    font-size: 11px;
+    font-family: "Google Sans", arial, sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.footerIndia {
+    width: 77px;
+    display: flex;
+    height: 48px;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footerIndia img {
+    width: 23px;
+    height: 15px;
+}
+
+.footerRight h3 {
+    font-size: 11px;
+    font-family: "Google Sans", arial, sans-serif;
+    font-weight: 400;
+}
+ 
+
+
